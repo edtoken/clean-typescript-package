@@ -14,7 +14,7 @@ export default class ProviderComponent extends React.Component<
         error: false,
         message: '',
         ready: false,
-        value: 1
+        value: 2
     };
 
     componentDidMount() {
