@@ -32,7 +32,6 @@
         "fix:prettier": "prettier \"src/**/*.ts\" \"src/**/*.tsx\" \"test/**/*.ts\" \"test/**/*.tsx\" \"./*.json\"  --write",
         "fix:tslint": "tslint --fix --project .",
         "watch": "run-s clean build && run-p \"build -- --w\" \"test:unit -- --watch\"",
-        "clean": "trash build",
         "precommit": "run-s fix",
         "prepush": "run-s fix"
     },
