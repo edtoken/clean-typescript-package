@@ -27,7 +27,7 @@
     ],
     "scripts": {
         "dotenv": "node ./env.js",
-        "build": "cross-env NODE_ENV=production run-s clean && tsc -p tsconfig.json",
+        "build": "cross-env NODE_ENV=production tsc -p tsconfig.json",
         "fix": "run-s fix:*",
         "fix:prettier": "prettier \"src/**/*.ts\" \"src/**/*.tsx\" \"test/**/*.ts\" \"test/**/*.tsx\" \"./*.json\"  --write",
         "fix:tslint": "tslint --fix --project .",

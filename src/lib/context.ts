@@ -7,7 +7,7 @@ const defaultContextValue: ContextInterface = {
     error: false,
     message: '',
     ready: false,
-    value: 1
+    value: 2
 };
 
 // tslint:disable:no-let
