@@ -12,6 +12,7 @@ branches:
   - "/^v\\d+\\./"
 script: yarn build
 deploy:
+  skip_cleanup: true
   provider: npm
   email: editied@gmail.com
   api_key:
