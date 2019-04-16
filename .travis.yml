@@ -10,9 +10,6 @@ branches:
   only:
   - master
   - "/^v\\d+\\./"
-after_success:
-- npx nyc report --reporter=lcov | npx codecov
-- npm run cov:check
 deploy:
   provider: npm
   email: editied@gmail.com
