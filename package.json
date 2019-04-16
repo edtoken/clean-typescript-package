@@ -1,6 +1,6 @@
 {
     "name": "clean-typescript-package",
-    "version": "2.0.13",
+    "version": "2.0.14",
     "description": "Very simple typescript package to help to configure the typescript npm packages with ReactJS",
     "main": "build/index.js",
     "author": "Eduard Titov",
