@@ -10,6 +10,7 @@ branches:
   only:
   - master
   - "/^v\\d+\\./"
+script: yarn build
 deploy:
   provider: npm
   email: editied@gmail.com
