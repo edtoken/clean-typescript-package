@@ -2,7 +2,6 @@ sudo: false
 language: node_js
 node_js:
 - '10'
-#- '8'
 cache:
   directories:
   - "$HOME/.npm"
@@ -15,8 +14,9 @@ deploy:
   skip_cleanup: true
   provider: npm
   email: editied@gmail.com
-  api_key:
-    secure: "pw6XmbqD5FrZpTnn7NNXJpS+1DEx+G1BMtZlVHQyVQX4611JoTkdjT0f3TBFnuCRRm63+VtpE8RYNYf34QH/YTxFr5kh8rGhzskZISO3CpVRC+MEd0gRhBZ1l14V8rtwA9Fx0iuKw+bBaKKO2UVQL9wQ9kbTpOXy0vSQ8gaXbvsgAvTEaJfQa7+LCsw/MCQ/5U2WzWF8KeLEIsM3t2+8rdqNaZi3/Yv3X1sASwK7EBd0vb7Se64rYWDtHa1giaLElVhyERIrowLSvRyEAPQzQHsULJYT957kOxxOhzbdaPWhGepCnoY44NkOAmObNLvskCxuFmNXVFQAkmFydFTBA470beX8fNOxoMeK+Z7cGVy8w2bmUrH6I05C/ApkqZCaOQm/X8pqikxdyfJI64ggbfvgtAUfnWK4NnAtLJ2WrgugG+26BvlBxZM2p2glDYfv/J1aRqb7UQ7PH3vJX6d3LLJKtREFoMhBYr9vGbIYqFuEtoRkRVPYp1GUMdIsgczYmL3kTxJYkTnIoCZhfG8DeLGHdID09mpzglQGKw4iCGc5FLGVxMxhpt1H27NUFAywtiAQTZsLAJTPtN2Je4CGqwAwLJXSh7vgFy2Ms0U8FWfb4gjljJVa5G4GNoB9og+2pY+zhHmD5JTfDD+qnByCTS5xFmB7zU2s8kSQbE5Mvrg="
   on:
     tags: false
     repo: edtoken/clean-typescript-package
+env:
+  global:
+    secure: IoBnC1cMhvl02ddIiGpcOKWuThBCEZrFBYF6XfPwBV5D66ov6AmvbkInKn6Bl/Vi7zOqqNTARsCkopOSOKHgEib2gmhaPo3A55NkKOvgo2XUg5aejRkeH5B0ZmNsBuFYCi+YA7ajZ1dQRQdSaDJsS01h734lWxYuEPRqSBKOdjCxVwRtLTqz1x+gncAhxGvPkaZRCxYnPPMNxjeg9MJfsNLevEJc/Ywk4+5X8H/pWi0pZQfFN0IKpxC4jkyORM4don+jYYCqMU8N776bNkyb/RvQUgNsHUeBQrne2RX6E2sM0rSgItDatrM+hfmlbb0ntBTxdafSH3JAfkmMtRNty73BnDCe4jA38JVkqYIVixL7iRnGCDknRxX5JIAHBkhShr+60ZKfVdFvhesX9mtLsJKiP3wVfSgFmOEwaxCReIxVvcj7GxmhtOuWUtD2kdoIpCR5Rycg3EPcsY0cYQQ0dY7WEsqjnz4AXqjIQtyLh54UFI7zw2TnE43RZ2vXdtUU7yarnmpmaDvZmWzeprSaZjkvTqxDSUMfZvERbfG4xp7OMjizaS0JMWU2ZndwjrAn1+gZiLSIESmRzDWwv0aqZhXC6AtxH5lEWcIJBb0ouMCaTF7LJBNH2x4ycwXLVue/WosBet+9NMXI2tPJ2GWm25oKha1xwMu7Uj/5Cv3apa8=
