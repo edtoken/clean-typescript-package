@@ -14,13 +14,13 @@ export default class ProviderComponent extends React.Component<
         error: false,
         message: '',
         ready: false,
-        value: 0
+        value: 1
     };
 
     componentDidMount() {
         setTimeout(() => {
-            const rand = Math.random() > 0.5;
-            const success = !!rand;
+            const rand = Math.random();
+            const success = !!(rand > 0.5);
 
             this.setState({
                 error: !success,
