@@ -14,7 +14,7 @@ export default class ProviderComponent extends React.Component<
         error: false,
         message: '',
         ready: false,
-        value: 2
+        value: 0
     };
 
     componentDidMount() {
@@ -27,7 +27,7 @@ export default class ProviderComponent extends React.Component<
                 message: `rand-${rand}`,
                 ready: success
             } as ContextInterface);
-        }, 5000);
+        }, 2000);
     }
 
     render() {
