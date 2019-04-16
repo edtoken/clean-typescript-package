@@ -4,5 +4,6 @@
 
 
 ```
-Very simple typescript package to help to configure the typescript npm packages with ReactJS
+Very simple typescript package  
+help to configure the typescript npm packages with ReactJS
 ```
