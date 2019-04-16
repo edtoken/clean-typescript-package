@@ -1,0 +1,22 @@
+sudo: false
+language: node_js
+node_js:
+- '10'
+- '8'
+cache:
+  directories:
+  - "$HOME/.npm"
+branches:
+  only:
+  - master
+  - "/^v\\d+\\./"
+script: yarn build
+deploy:
+  provider: npm
+  email: editied@gmail.com
+  api_key:
+      secure: ATMPNSGL99ULvKqKvVf8CL1t4ilJXCOyuxzy8vYY+HIOPFmx/S9Z2pt5bfSTzvR8jcbqCIP+E6ecA8Fg0QVJG1J9PCmdKbeeoFLEwR9jZqS0hSb65ckHMtHkUM/18Te/jEzZD621NKfg0PSPCZUztohZgXCMlT8KZ769rQfaF07MAseyD1kEJLfKGCQ03yc6ovi/Y0/1hubj0uMnpVYvw2JmqmKRCfmHs3b7CDNuo3Kl6S4y8jwv9+RzLbcInSeF6YdJ95rjrwqqP4SY947+Ifiy8vIfTj9yMbHFqGHxdFHS7y0ueMXZ8/xdBunKd88GNiLgivN0vmr6fJRSGGIECq/XtNUs6VImN23VTk+v2mHZ8Y17WQPmLUWxmcerI9WDekgvq3mSmj2pxBiJ5p+FODHGhoOh90KNe0bKC3Lw2TsbDLyS4yIcIv3pynLvZ1ZJV2y4QSrsYJTq63zi+X1Ffvbpj+ZlsN7qefLsOUuf8gNCJLLyRerZUnnf7NsifVd5xEV20sfSJNZGXYK56Bi2beriPvH9zqbBuSJTZscK380lgXCKE/a8w56nPf2H1NrakbtY1KCoXDjqTGBUiejbW4jHS9Oy15WkZFmTAzQWNk8LvV/a1DMInkoVY6/ryCmX+M9kPyZTMWE9oanRPxXpGbrFqaK4GiVsmjQ1Kl1BwG8=
+  on:
+    tags: true
+    repo: edtoken/clean-typescript-package
+
